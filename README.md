@@ -6,5 +6,5 @@ $ git config --global user.name "duidae"
 
 $ git config --global user.email "duidae@gmail.com"
 
-$ git clone
+$ git clone https://github.com/duidae/source.git
 
