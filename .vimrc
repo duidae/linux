@@ -18,6 +18,7 @@ syntax on		" syntax on/off/enable
 
 " ================= Vim Settings (:set show current settings) =================
 set nu
+set mouse=
 set wildmenu
 set backupdir=~/tmp		" op=,.,/var/tmp/vi.recover,/tmp " bdir: backup directory
 set directory=~/tmp		" op=,.,/var/tmp/vi.recover,/tmp " dir to save swp files
@@ -41,7 +42,7 @@ set showcmd			" display incomplete commands
 
 " other options {{{
 "
-" set compatible		" ³]¬°©M­ì©l vi ¬Û®eªºª¬ºA,vim ªºÂX¥R¥\¯à·|³Q§í¨î,default off
+" set compatible		" è¨­ç‚ºå’ŒåŽŸå§‹ vi ç›¸å®¹çš„ç‹€æ…‹,vim çš„æ“´å……åŠŸèƒ½æœƒè¢«æŠ‘åˆ¶,default off
 " set wb			" writebackup: back up after write
 " set swapfile			" have swap space or total load into memory
 " set autowrite			" auto write when update
