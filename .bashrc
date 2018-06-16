@@ -24,6 +24,7 @@ fi
 alias ll='ls -l -Ch'
 alias la='ls -A -Ch'
 alias l='ls -CF'
+alias vi='vim'
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "$debian_chroot" -a -r /etc/debian_chroot ]; then
