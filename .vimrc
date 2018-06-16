@@ -1,4 +1,3 @@
-" ================= sliverleaf 2005/10/07 =====================================
 " [.vimrc]
 " setting modeline of vim:
 "	vim:ts=8:fdm=marker:foldcolumn=2
