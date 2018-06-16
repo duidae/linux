@@ -17,7 +17,7 @@ syntax on		" syntax on/off/enable
 
 " ================= Vim Settings (:set show current settings) =================
 set nu
-set mouse=nv
+set mouse=v
 set wildmenu
 set backupdir=~/tmp		" op=,.,/var/tmp/vi.recover,/tmp " bdir: backup directory
 set directory=~/tmp		" op=,.,/var/tmp/vi.recover,/tmp " dir to save swp files
