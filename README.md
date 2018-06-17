@@ -29,3 +29,6 @@ Basic source for vim, shell, ...etc
   * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
   * sudo apt-get update
   * sudo apt-get install grub-customizer
+
+- [X] 23.6. 重新編譯 World
+- [ ] 13. 安全性
