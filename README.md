@@ -21,3 +21,11 @@ Basic source for vim, shell, ...etc
 #### CentOS
 * hibernate
   * $ systemctl hibernate
+
+#### GUI: grub-customizer
+* CentOS/RHEL
+  * $ yum install grub-customizer
+* Ubuntu
+  * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+  * sudo apt-get update
+  * sudo apt-get install grub-customizer
