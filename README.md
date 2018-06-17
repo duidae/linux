@@ -22,7 +22,7 @@ Basic source for vim, shell, ...etc
 * hibernate
   * $ systemctl hibernate
 
-#### GUI: grub-customizer
+#### grub GUI: grub-customizer
 * CentOS/RHEL
   * $ yum install grub-customizer
 * Ubuntu
