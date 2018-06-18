@@ -5,7 +5,7 @@
 * $ git config --global user.email "duidae@gmail.com"
 * $ git clone https://github.com/duidae/source.git
 
-## install Linux OS
+## install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
 * / 10G
 * /boot 500MB
@@ -41,20 +41,13 @@
 * CentOS 7/RHEL 7
 * $ sudo vi /etc/yum.repos.d/google-chrome.repo
 
-`` 
-[google-chrome]
-
+`[google-chrome]
 name=google-chrome
-
 baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
-
 enabled=1
-
 gpgcheck=1
-
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
-
-``
+`
 
 * $ yum install google-chrome-stable
 
