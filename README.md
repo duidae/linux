@@ -39,7 +39,7 @@
 
 ## Google Chrome
 * CentOS 7/RHEL 7
-* $ sudo vi /etc/yum.repos.d/google-chrome.repo
+  * $ sudo vi /etc/yum.repos.d/google-chrome.repo
 ```
 [google-chrome]
 name=google-chrome
@@ -48,7 +48,7 @@ enabled=1
 gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
-* $ yum install google-chrome-stable
+  * $ yum install google-chrome-stable
 
 - [X] 23.6. 重新編譯 World
 - [ ] 13. 安全性
