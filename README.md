@@ -29,6 +29,24 @@ Basic source for vim, shell, ...etc
   * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
   * sudo apt-get update
   * sudo apt-get install grub-customizer
+  
+#### adsl(pppoe) on Linux
+* CentOS 7
+  * http://blog.kevinlinul.idv.tw/?p=174
+  * $ adsl-start
+* Ubuntu 18.04LTS
+  * $ systemctl stop NetworkManager.service
+  * $ systemctl disable NetworkManager.service
+  * $ pppoeconf  
+  
+* change boot order https://wiki.centos.org/zh-tw/HowTos/Grub2
+* GUI: grub-customizer
+  * CentOS/RHEL
+    * $ yum install grub-customizer
+  * Ubuntu
+    * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+    * sudo apt-get update
+    * sudo apt-get install grub-customizer
 
 - [X] 23.6. 重新編譯 World
 - [ ] 13. 安全性
