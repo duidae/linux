@@ -41,7 +41,7 @@
 * CentOS 7/RHEL 7
 * $ sudo vi /etc/yum.repos.d/google-chrome.repo
 ```
-([)google-chrome(])
+[google-chrome]
 name=google-chrome
 baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
 enabled=1
