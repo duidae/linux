@@ -47,7 +47,8 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * $ git config --global user.email "duidae@gmail.com"
 * $ git clone https://github.com/duidae/source.git
 
-## Trace tool
+## Tool for trace code
+* Eclipse
 * C/C++ Global
   * $ sudo apt install global
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
