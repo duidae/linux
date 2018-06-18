@@ -8,7 +8,7 @@
 * /home whatever you need
 
 ## Grub GUI: grub-customizer
-* CentOS/RHEL
+* CentOS 7
   * $ yum install grub-customizer
 * Ubuntu
   * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
