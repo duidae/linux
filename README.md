@@ -29,10 +29,10 @@
   * sudo apt-get install grub-customizer
   
 ## adsl(pppoe) on Linux
-* CentOS 7
+* CentOS 7 / RHEL 7
   * http://blog.kevinlinul.idv.tw/?p=174
-  * $ adsl-start
-* Ubuntu 18.04 LTS
+  * http://www.bos.tw/2016/09/centos-%E6%88%96%E6%98%AF-redhat-%E7%B3%BB%E7%9A%84linux-adsl%E6%88%96pppoe-%E7%9A%84%E6%92%A5%E8%99%9F%E8%A8%AD%E5%AE%9A/
+  * Ubuntu 18.04 LTS
   * $ systemctl stop NetworkManager.service
   * $ systemctl disable NetworkManager.service
   * $ pppoeconf
@@ -40,7 +40,13 @@
 ## Google Chrome
 * CentOS 7/RHEL 7
 * $ sudo vi /etc/yum.repos.d/google-chrome.repo
-* 
+``` [google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+enabled=1
+gpgcheck=1
+gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub```
+* $ yum install google-chrome-stable
 
 * GUI: grub-customizer
   * CentOS/RHEL
