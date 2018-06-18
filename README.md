@@ -17,9 +17,6 @@
 * /usr/local: 手動安裝, 不影響package manager
 * /usr: package manager裝的地方
 
-## hibernate
-* $ systemctl hibernate
-
 ## grub GUI: grub-customizer
 * CentOS/RHEL
   * $ yum install grub-customizer
@@ -49,6 +46,10 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
   * $ yum install google-chrome-stable
+  
+## commands
+* hibernate
+  * $ systemctl hibernate
 
 - [X] 23.6. 重新編譯 World
 - [ ] 13. 安全性
