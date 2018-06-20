@@ -57,8 +57,15 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
 * doxygen
 
-## Office
+## 我的軟體 
 * $ sudo yum install -y libreoffice
+* $ sudo yum install -y kolourpaint 
+* [TODO] 寫一個我自己的安裝script好了... installMySW.sh
+  * office: libreoffice
+  * 小畫家: kolourpain
+  * git
+  * build-essentials
+  * chrome
 
 ## Commands
 * hibernate
