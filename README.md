@@ -57,6 +57,9 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
 * doxygen
 
+## Office
+* $ sudo yum install -y libreoffice
+
 ## Commands
 * hibernate
   * $ systemctl hibernate
