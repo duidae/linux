@@ -39,6 +39,8 @@ gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
   * $ yum install google-chrome-stable
+* Ubuntu
+  * 直接連網頁裝
   
 ## 軟體安裝位置
 * /opt: optional, 不需要時可刪掉
