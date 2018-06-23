@@ -8,9 +8,19 @@
 * /home whatever you need
 * 新手切/, swap就好
 
+## Installing CentOS, RHEL
+* find usb device
+  * $ lsblk
+* format usb to FAT32
+  * $ mkdosfs -F 32 -I /dev/sdb
+* write ISO to usb
+  * $ dd if=/home/testuser/Downloads/rhel-server-7.0x86_64-boot.iso of=/dev/sdb status=progress
+  * $ ~watch -n 5 killall -USR1 dd //check dd progress~
+* usb不能用太爛的...雜牌的dd copy不進去/copy進去裝不起來...創見的就都ok裝的起來...what the hell??
+
 ## Grub GUI: grub-customizer
 * CentOS 7
-  * $ yum install grub-customizer
+  * $ sudo yum install grub-customizer
 * Ubuntu
   * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
   * sudo apt-get update
@@ -38,7 +48,7 @@ enabled=1
 gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
-  * $ yum install google-chrome-stable
+  * $ sudo yum install google-chrome-stable
 * Ubuntu
   * 直接連網頁裝
   
