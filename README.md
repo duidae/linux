@@ -58,6 +58,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * $ sudo apt install global
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
 * doxygen
+* $ grep -rn [string]
 
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
