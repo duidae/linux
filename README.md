@@ -63,7 +63,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * $ git clone https://github.com/duidae/source.git
 * pull request https://gitbook.tw/chapters/github/pull-request.html
 * check out specific branch
-  * git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
+  * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
 
 ## Shell
 * [> /dev/null 2>&1](http://ibookmen.blogspot.com/2010/11/unix-2.html)
