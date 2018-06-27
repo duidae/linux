@@ -62,6 +62,9 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * $ git config --global user.email "duidae@gmail.com"
 * $ git clone https://github.com/duidae/source.git
 
+## Shell
+* [2>&1  > /dev/null](http://ibookmen.blogspot.com/2010/11/unix-2.html)
+
 ## Tool for trace code
 * Eclipse
 * C/C++ Global
