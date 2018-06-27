@@ -66,7 +66,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
 
 ## Shell
-* > /dev/null 2>&1
+* "> /dev/null 2>&1"
   * http://ibookmen.blogspot.com/2010/11/unix-2.html
   * 0: 標準輸入 (stdin)
   * 1: 標準輸出 (stdout)
