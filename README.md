@@ -57,10 +57,11 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * /usr/local: 手動安裝, 不影響package manager
 * /usr: package manager裝的地方
 
-## Git
+## Github
 * $ git config --global user.name "duidae"
 * $ git config --global user.email "duidae@gmail.com"
 * $ git clone https://github.com/duidae/source.git
+* pull request https://gitbook.tw/chapters/github/pull-request.html
 
 ## Shell
 * [> /dev/null 2>&1](http://ibookmen.blogspot.com/2010/11/unix-2.html)
