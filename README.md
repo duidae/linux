@@ -72,6 +72,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * 1: 標準輸出 (stdout)
   * 2: 標準錯誤輸出 (stderr)
   * 2(stderr) > &1 (stdout), 如果寫成 2>1 就會變成輸出到"1"這個檔案
+  * 重新導向的順序是由左至右。也就是說「>/dev/null 2>&1」會先處理「>/dev/null」再處理「2>&1」。如果聽到這裡你覺得怪的話，再告訴你一件很幹的事。用「2>&1 >/dev/null」並不會將 stderr 導到 /dev/null。
 
 ## Tool for trace code
 * Eclipse
