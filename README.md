@@ -63,7 +63,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * $ git clone https://github.com/duidae/source.git
 
 ## Shell
-* [2>&1  > /dev/null](http://ibookmen.blogspot.com/2010/11/unix-2.html)
+* [> /dev/null 2>&1](http://ibookmen.blogspot.com/2010/11/unix-2.html)
 
 ## Tool for trace code
 * Eclipse
