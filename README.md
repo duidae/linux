@@ -32,6 +32,7 @@
   * http://www.bos.tw/2016/09/centos-%E6%88%96%E6%98%AF-redhat-%E7%B3%BB%E7%9A%84linux-adsl%E6%88%96pppoe-%E7%9A%84%E6%92%A5%E8%99%9F%E8%A8%AD%E5%AE%9A/
   * $ ifconfig
   * Hinet DNS: 168.95.1.1
+  * $ sudo /sbin/ifup ppp0
 * Ubuntu 18.04 LTS
   * $ systemctl stop NetworkManager.service
   * $ systemctl disable NetworkManager.service
