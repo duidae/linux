@@ -82,6 +82,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
 * doxygen
 * $ grep -rn [string]
+* $ find . -name "*.png"
 
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
