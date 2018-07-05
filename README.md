@@ -10,7 +10,19 @@
   * 重新導向的順序是由左至右。也就是說「>/dev/null 2>&1」會先處理「>/dev/null」再處理「2>&1」。用「2>&1 >/dev/null」並不會將 stderr 導到 /dev/null。
 * $ uname -s  // print kernel name
   * Linux
-  
+
+## Github
+* $ git config --global user.name "duidae"
+* $ git config --global user.email "duidae@gmail.com"
+* $ git clone https://github.com/duidae/source.git
+* pull request https://gitbook.tw/chapters/github/pull-request.html
+* check out specific branch
+  * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
+* remove directory
+  * $ git rm -r one-of-the-directories
+  * $ git commit -m "Remove directory"
+  * $ git push
+
 ## Environment
 * $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
 
@@ -83,14 +95,6 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * /opt: optional, 不需要時可刪掉
 * /usr/local: 手動安裝, 不影響package manager
 * /usr: package manager裝的地方
-
-## Github
-* $ git config --global user.name "duidae"
-* $ git config --global user.email "duidae@gmail.com"
-* $ git clone https://github.com/duidae/source.git
-* pull request https://gitbook.tw/chapters/github/pull-request.html
-* check out specific branch
-  * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
 
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
