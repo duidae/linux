@@ -1,5 +1,31 @@
 # Notes for Linux
 
+## Shell
+* "> /dev/null 2>&1"
+  * http://ibookmen.blogspot.com/2010/11/unix-2.html
+  * 0: 標準輸入 (stdin)
+  * 1: 標準輸出 (stdout)
+  * 2: 標準錯誤輸出 (stderr)
+  * 2(stderr) > &1 (stdout), 如果寫成 2>1 就會變成輸出到"1"這個檔案
+  * 重新導向的順序是由左至右。也就是說「>/dev/null 2>&1」會先處理「>/dev/null」再處理「2>&1」。用「2>&1 >/dev/null」並不會將 stderr 導到 /dev/null。
+* $ uname -s  // print kernel name
+  * Linux
+  
+## Environment
+* $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
+
+## Tool for trace code
+* Eclipse
+* C/C++ Global
+  * $ sudo apt install global
+  * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
+* doxygen
+* $ grep -rn [string]
+* $ find . -name "*.png"
+
+## 疑難雜症
+* [cannot-find-lxxx, library沒裝](http://i-pogo.blogspot.com/2010/01/usrbinld-cannot-find-lxxx.html)
+
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
 * / 10G
@@ -65,29 +91,6 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * pull request https://gitbook.tw/chapters/github/pull-request.html
 * check out specific branch
   * $ git clone -b mark/newArch-testProtoBuf https://github.com/duidae/carta.git CARTAvis
-
-## Shell
-* "> /dev/null 2>&1"
-  * http://ibookmen.blogspot.com/2010/11/unix-2.html
-  * 0: 標準輸入 (stdin)
-  * 1: 標準輸出 (stdout)
-  * 2: 標準錯誤輸出 (stderr)
-  * 2(stderr) > &1 (stdout), 如果寫成 2>1 就會變成輸出到"1"這個檔案
-  * 重新導向的順序是由左至右。也就是說「>/dev/null 2>&1」會先處理「>/dev/null」再處理「2>&1」。用「2>&1 >/dev/null」並不會將 stderr 導到 /dev/null。
-* $ uname -s  // print kernel name
-  * Linux
-
-## Tool for trace code
-* Eclipse
-* C/C++ Global
-  * $ sudo apt install global
-  * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
-* doxygen
-* $ grep -rn [string]
-* $ find . -name "*.png"
-
-## 疑難雜症
-* [cannot-find-lxxx, library沒裝](http://i-pogo.blogspot.com/2010/01/usrbinld-cannot-find-lxxx.html)
 
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
