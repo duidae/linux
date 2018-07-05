@@ -86,6 +86,9 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * $ grep -rn [string]
 * $ find . -name "*.png"
 
+## 疑難雜症
+* [cannot-find-lxxx, library沒裝](http://i-pogo.blogspot.com/2010/01/usrbinld-cannot-find-lxxx.html)
+
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
 * $ sudo yum install -y kolourpaint 
