@@ -80,6 +80,7 @@
 * CentOS 7
   * 防火牆會擋印表機...要先去 [應用程式]->[雜項]->[列印設定值],按新增會有程序自動解除
   * 需要/usr/lib/cups/filter/hpps
+    * 缺HPLIP PostScript Finishing Filter
     * $ sudo yum install hplip
     * $ system-config-printer
 
