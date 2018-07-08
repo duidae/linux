@@ -11,7 +11,7 @@
 * $ uname -s  // print kernel name
   * Linux
 
-## Github
+## Git/Github
 * $ git config --global user.name "duidae"
 * $ git config --global user.email "duidae@gmail.com"
 * $ git clone https://github.com/duidae/source.git
