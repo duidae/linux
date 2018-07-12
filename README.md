@@ -20,7 +20,7 @@
   * $ sudo apt install global
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
 * doxygen
-* $ grep -rn [string]
+* $ grep -irn [string]
 * $ find . -name "*.png"
 
 ## 疑難雜症
