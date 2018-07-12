@@ -92,6 +92,9 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 * /usr/local: 手動安裝, 不影響package manager
 * /usr: package manager裝的地方
 
+## 裝rpm
+* $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
+
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
 * $ sudo yum install -y kolourpaint 
