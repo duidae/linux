@@ -27,6 +27,8 @@
 * [cannot-find-lxxx, library沒裝](http://i-pogo.blogspot.com/2010/01/usrbinld-cannot-find-lxxx.html)
 * 若缺甚麼library
   * $ yum whatprovides libstdc++.so.6
+* 'GLIBCXX_3.4.20' not found
+  * $ strings  /usr/lib64/libstdc++.so.6 | grep GLIBCXX
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
