@@ -29,6 +29,8 @@
   * $ yum whatprovides libstdc++.so.6
 * 'GLIBCXX_3.4.20' not found
   * $ strings  /usr/lib64/libstdc++.so.6 | grep GLIBCXX
+* upgrade gcc tool chain
+  * https://www.softwarecollections.org/en/scls/rhscl/devtoolset-4/
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
