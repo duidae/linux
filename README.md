@@ -31,6 +31,12 @@
   * $ strings  /usr/lib64/libstdc++.so.6 | grep GLIBCXX
 * upgrade gcc tool chain
   * https://www.softwarecollections.org/en/scls/rhscl/devtoolset-4/
+  ```
+  sudo yum install centos-release-scl
+  sudo yum install devtoolset-6
+  scl enable devtoolset-6 bash
+  sudo yum list devtoolset-6\*
+  ```
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
