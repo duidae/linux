@@ -31,6 +31,7 @@
   * $ strings  /usr/lib64/libstdc++.so.6 | grep GLIBCXX
 * upgrade gcc tool chain
   * https://www.softwarecollections.org/en/scls/rhscl/devtoolset-4/
+  * scl enable devtoolset-6 bash只是临时覆盖系统原有的GCC引用，如果想永久覆盖，可在root/.bashrc文件中添加source /opt/rh/devtoolset-6/enable
   ```
   sudo yum install centos-release-scl
   sudo yum install devtoolset-6
