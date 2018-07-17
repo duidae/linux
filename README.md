@@ -38,6 +38,8 @@
   scl enable devtoolset-6 bash
   sudo yum list devtoolset-6\*
   ```
+* 在centos中升級python2.7.5
+  * https://www.jianshu.com/p/1babc657914c
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
