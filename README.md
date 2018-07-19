@@ -14,6 +14,10 @@
 ## Environment
 * $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
 
+## 權限
+* $ sudo ls -l // 看owner
+* $ sudo chown -R duidae [dir/file] // 改目錄或檔案的owner
+
 ## Tool for trace code
 * Eclipse
 * C/C++ Global
