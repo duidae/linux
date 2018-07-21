@@ -18,6 +18,10 @@
 * $ sudo ls -l // 看owner
 * $ sudo chown -R duidae [dir/file] // 改目錄或檔案的owner
 
+## development tool
+* CentOS
+  * $ sudo yum groupinstall 'Development Tools'
+
 ## Tool for trace code
 * Eclipse
 * C/C++ Global
