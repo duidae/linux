@@ -18,7 +18,7 @@
 * $ sudo ls -l // 看owner
 * $ sudo chown -R duidae [dir/file] // 改目錄或檔案的owner
 
-## development tool
+## Development tool
 * CentOS
   * $ sudo yum groupinstall 'Development Tools'
 
