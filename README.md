@@ -67,9 +67,9 @@
 * CentOS 7
   * $ sudo yum install grub-customizer
 * Ubuntu
-  * sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-  * sudo apt-get update
-  * sudo apt-get install grub-customizer
+  * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+  * $ sudo apt-get update
+  * $ sudo apt-get install grub-customizer
   
 ## ADSL(pppoe) on Linux
 * CentOS 7 / RHEL 7
