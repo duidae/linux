@@ -21,6 +21,9 @@
 ## Development tool
 * CentOS
   * $ sudo yum groupinstall 'Development Tools'
+  
+## yum of CentOS
+* $ yum -y install zlib*
 
 ## Tool for trace code
 * Eclipse
