@@ -19,12 +19,12 @@ syntax on		" syntax on/off/enable
 set nu
 set mouse=v
 set wildmenu
-set backupdir=~/tmp		" op=,.,/var/tmp/vi.recover,/tmp " bdir: backup directory
-set directory=~/tmp		" op=,.,/var/tmp/vi.recover,/tmp " dir to save swp files
+set backupdir=~/vim-tmp		" op=,.,/var/tmp/vi.recover,/tmp " bdir: backup directory
+set directory=~/vim-tmp		" op=,.,/var/tmp/vi.recover,/tmp " dir to save swp files
 set noundofile
 set nobackup
 set noswapfile
-"set backup			" backup: keep a backup file
+set backup			" backup: keep a backup file
 set ruler			" show the cursor position all the time
 set showmode			" show mode. show filename size when open file
 set bs=2			" allow backspacing over everything in insert mode
