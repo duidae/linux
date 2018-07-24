@@ -8,7 +8,7 @@
 * /home whatever you need
 * 新手切/, swap就好
 
-## Installing CentOS, RHEL
+## Installing Ubuntu, CentOS, RHEL with USB
 * find usb device
   * $ lsblk
 * format usb to FAT32
