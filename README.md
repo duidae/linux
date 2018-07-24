@@ -109,7 +109,7 @@ enabled=1
 gpgcheck=1
 gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ```
-  * $ sudo yum install google-chrome-stable
+  * $ sudo yum install -y google-chrome-stable
 * Ubuntu
   * 直接連網頁裝
   
