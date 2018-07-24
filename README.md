@@ -22,15 +22,16 @@
 * CentOS
   * $ sudo yum groupinstall 'Development Tools'
 
-## CentOS repo
-* epel
+## CentOS repo & yum
+* epel repo
   * $ sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
-
-## yum of CentOS
+* $ sudo yum -y update
 * $ sudo yum -y install [app]
 * $ sudo yum info gcc // get info of app
-
+* 裝rpm
+  * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
+  
 ## Tool for trace code
 * Eclipse
 * C/C++ Global
@@ -122,10 +123,8 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 ## 軟體安裝位置
 * /opt: optional, 不需要時可刪掉
 * /usr/local: 手動安裝, 不影響package manager
+  * 裝時記得 --prefix=/usr/local/[appname+version]
 * /usr: package manager裝的地方
-
-## 裝rpm
-* $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
 
 ## 我的軟體 
 * $ sudo yum install -y libreoffice
@@ -135,7 +134,6 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
   * 小畫家: kolourpaint
   * git
   * build-essentials
-  * chrome
 
 ## Commands
 * hibernate
