@@ -71,6 +71,8 @@
   * 重新導向的順序是由左至右。也就是說「>/dev/null 2>&1」會先處理「>/dev/null」再處理「2>&1」。用「2>&1 >/dev/null」並不會將 stderr 導到 /dev/null。
 * $ uname -s  // print kernel name
   * Linux
+* 看版本
+  * $ cat /etc/centos-release
 
 ## Environment
 * $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
