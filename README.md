@@ -21,7 +21,11 @@
 ## Development tool
 * CentOS
   * $ sudo yum groupinstall 'Development Tools'
-  
+
+## CentOS repo
+* epel
+  * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
+
 ## yum of CentOS
 * $ yum -y install zlib*
 
