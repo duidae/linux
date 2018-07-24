@@ -56,8 +56,6 @@
   scl enable devtoolset-6 bash
   sudo yum list devtoolset-6\*
   ```
-* 在centos中升級python2.7.5
-  * https://www.jianshu.com/p/1babc657914c
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
@@ -79,7 +77,7 @@
 
 ## Grub GUI: grub-customizer
 * CentOS 7
-  * $ sudo yum install grub-customizer
+  * $ sudo yum install -y grub-customizer // 需要epel repo
 * Ubuntu
   * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
   * $ sudo apt-get update
@@ -107,18 +105,12 @@
 
 ## Google Chrome
 * CentOS 7/RHEL 7
-  * $ sudo vi /etc/yum.repos.d/google-chrome.repo
-```
-[google-chrome]
-name=google-chrome
-baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
-enabled=1
-gpgcheck=1
-gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
-```
-  * $ sudo yum install -y google-chrome-stable
+  * 1. 連官網下載rpm
+    * sudo yum install -y [rpm]
+  * 2. $ sudo vi /etc/yum.repos.d/google-chrome.repo // 這個repo裡有寫好的, 直接clone下來即可
+    * $ sudo yum install -y google-chrome-stable
 * Ubuntu
-  * 直接連網頁裝
+  * 直接連官網裝
   
 ## 軟體安裝位置
 * /opt: optional, 不需要時可刪掉
