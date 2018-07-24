@@ -55,10 +55,10 @@
   * 直接連官網裝
   
 ## 軟體安裝位置
-* /opt: optional, 不需要時可刪掉
+* /usr: package manager裝的地方
 * /usr/local: 手動安裝, 不影響package manager
   * 裝時記得 --prefix=/usr/local/[appname+version]
-* /usr: package manager裝的地方
+* /opt: optional, 不需要時可刪掉
 
 ## Shell
 * "> /dev/null 2>&1"
