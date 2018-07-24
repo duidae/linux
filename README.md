@@ -24,10 +24,12 @@
 
 ## CentOS repo
 * epel
+  * $ sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
 
 ## yum of CentOS
-* $ yum -y install zlib*
+* $ sudo yum -y install [app]
+* $ sudo yum info gcc // get info of app
 
 ## Tool for trace code
 * Eclipse
