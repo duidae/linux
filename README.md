@@ -22,10 +22,11 @@
 * epel repo
   * $ sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
-* $ sudo yum -y update
-* $ sudo yum -y install [app]
-* $ sudo yum remove [app name] // 移除軟體
-* $ sudo yum info gcc // get info of app
+* yum 
+  * $ sudo yum -y update
+  * $ sudo yum -y install [app]
+  * $ sudo yum remove [app name] // 移除軟體
+  * $ sudo yum info gcc // get info of app
 * 裝rpm
   * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
 
