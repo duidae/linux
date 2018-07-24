@@ -1,5 +1,65 @@
 # Notes for Linux
 
+## Install Linux
+* [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
+* / 10G
+* /boot 500MB
+* swap 兩倍記憶體大小
+* /home whatever you need
+* 新手切/, swap就好
+
+## Installing CentOS, RHEL
+* find usb device
+  * $ lsblk
+* format usb to FAT32
+  * $ mkdosfs -F 32 -I /dev/sdb
+* write ISO to usb
+  * $ dd if=/home/testuser/Downloads/rhel-server-7.0x86_64-boot.iso of=/dev/sdb status=progress
+  * $ ~watch -n 5 killall -USR1 dd //check dd progress~
+* usb不能用太爛的...雜牌的dd copy不進去/copy進去裝不起來...創見的就都ok裝的起來...what the hell??
+
+## CentOS repo & yum
+* epel repo
+  * $ sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
+* $ sudo yum -y update
+* $ sudo yum -y install [app]
+* $ sudo yum info gcc // get info of app
+* 裝rpm
+  * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
+
+## 軟體
+* git
+  * $ sudo yum install -y git
+* office
+  * $ sudo yum install -y libreoffice
+* 小畫家
+  * $ sudo yum install -y kolourpaint
+* grub customizer
+  * CentOs
+    * $ sudo yum install -y grub-customizer // 需要epel repo
+  * Ubuntu
+    * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+    * $ sudo apt-get update
+    * $ sudo apt-get install grub-customizer
+* [TODO] 寫一個我自己的安裝script好了... installMySW.sh
+  * build-essentials
+  
+## Google Chrome
+* CentOS 7/RHEL 7
+  * 1. 連官網下載rpm
+    * sudo yum install -y [rpm]
+  * 2. $ sudo vi /etc/yum.repos.d/google-chrome.repo // 這個repo裡有寫好的, 直接clone下來即可
+    * $ sudo yum install -y google-chrome-stable
+* Ubuntu
+  * 直接連官網裝
+  
+## 軟體安裝位置
+* /opt: optional, 不需要時可刪掉
+* /usr/local: 手動安裝, 不影響package manager
+  * 裝時記得 --prefix=/usr/local/[appname+version]
+* /usr: package manager裝的地方
+
 ## Shell
 * "> /dev/null 2>&1"
   * http://ibookmen.blogspot.com/2010/11/unix-2.html
@@ -21,18 +81,9 @@
 ## Development tool
 * CentOS
   * $ sudo yum groupinstall 'Development Tools'
-
-## CentOS repo & yum
-* epel repo
-  * $ sudo yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-  * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
-* $ sudo yum -y update
-* $ sudo yum -y install [app]
-* $ sudo yum info gcc // get info of app
-* 裝rpm
-  * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
   
 ## Tool for trace code
+* VS code
 * Eclipse
 * C/C++ Global
   * $ sudo apt install global
@@ -57,32 +108,6 @@
   sudo yum list devtoolset-6\*
   ```
 
-## Install Linux
-* [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
-* / 10G
-* /boot 500MB
-* swap 兩倍記憶體大小
-* /home whatever you need
-* 新手切/, swap就好
-
-## Installing CentOS, RHEL
-* find usb device
-  * $ lsblk
-* format usb to FAT32
-  * $ mkdosfs -F 32 -I /dev/sdb
-* write ISO to usb
-  * $ dd if=/home/testuser/Downloads/rhel-server-7.0x86_64-boot.iso of=/dev/sdb status=progress
-  * $ ~watch -n 5 killall -USR1 dd //check dd progress~
-* usb不能用太爛的...雜牌的dd copy不進去/copy進去裝不起來...創見的就都ok裝的起來...what the hell??
-
-## Grub GUI: grub-customizer
-* CentOS 7
-  * $ sudo yum install -y grub-customizer // 需要epel repo
-* Ubuntu
-  * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-  * $ sudo apt-get update
-  * $ sudo apt-get install grub-customizer
-  
 ## ADSL(pppoe) on Linux
 * CentOS 7 / RHEL 7
   * http://blog.kevinlinul.idv.tw/?p=174
@@ -103,34 +128,6 @@
     * $ sudo yum install hplip
     * $ system-config-printer
 
-## Google Chrome
-* CentOS 7/RHEL 7
-  * 1. 連官網下載rpm
-    * sudo yum install -y [rpm]
-  * 2. $ sudo vi /etc/yum.repos.d/google-chrome.repo // 這個repo裡有寫好的, 直接clone下來即可
-    * $ sudo yum install -y google-chrome-stable
-* Ubuntu
-  * 直接連官網裝
-  
-## 軟體安裝位置
-* /opt: optional, 不需要時可刪掉
-* /usr/local: 手動安裝, 不影響package manager
-  * 裝時記得 --prefix=/usr/local/[appname+version]
-* /usr: package manager裝的地方
-
-## 我的軟體 
-* $ sudo yum install -y libreoffice
-* $ sudo yum install -y kolourpaint 
-* [TODO] 寫一個我自己的安裝script好了... installMySW.sh
-  * office: libreoffice
-  * 小畫家: kolourpaint
-  * git
-  * build-essentials
-
 ## Commands
 * hibernate
   * $ systemctl hibernate
-
-
-- [X] 23.6. 重新編譯 World
-- [ ] 13. 安全性
