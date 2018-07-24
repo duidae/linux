@@ -24,6 +24,7 @@
   * https://www.brilliantcode.net/108/centos-7-install-epel-repository/
 * $ sudo yum -y update
 * $ sudo yum -y install [app]
+* $ sudo yum remove [app name] // 移除軟體
 * $ sudo yum info gcc // get info of app
 * 裝rpm
   * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
@@ -42,8 +43,7 @@
     * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
     * $ sudo apt-get update
     * $ sudo apt-get install grub-customizer
-* [TODO] 寫一個我自己的安裝script好了... installMySW.sh
-  * build-essentials
+* build-essentials
   
 ## Google Chrome
 * CentOS 7/RHEL 7
