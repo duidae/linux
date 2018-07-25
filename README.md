@@ -31,16 +31,9 @@
   * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
 
 ## 軟體
-* git
-  * $ sudo yum install -y git
-* office
-  * $ sudo yum install -y libreoffice
-* 小畫家
-  * $ sudo yum install -y kolourpaint
-* grub customizer
-  * CentOs
-    * $ sudo yum install -y grub-customizer // 需要epel repo
-  * Ubuntu
+* necessary: git, office, 小畫家, grub customizer
+  * $ sudo yum install -y git, libreoffice, kolourpaint, grub-customizer
+ * grub-customizer @ Ubuntu
     * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
     * $ sudo apt-get update
     * $ sudo apt-get install grub-customizer
