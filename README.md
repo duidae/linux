@@ -68,6 +68,10 @@
   * Linux
 * 看版本
   * $ cat /etc/centos-release
+* 休眠 @ CentOs
+  * $ systemctl hibernate
+* $ grep -irn [string]
+* $ find . -name "*.png"
 
 ## Environment
 * $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
@@ -119,9 +123,3 @@
     * 缺HPLIP PostScript Finishing Filter
     * $ sudo yum install hplip
     * $ system-config-printer
-
-## Commands
-* hibernate
-  * $ systemctl hibernate
-* $ grep -irn [string]
-* $ find . -name "*.png"
