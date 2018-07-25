@@ -75,10 +75,6 @@
 ## 權限
 * $ sudo ls -l // 看owner
 * $ sudo chown -R duidae [dir/file] // 改目錄或檔案的owner
-
-## Development tool
-* CentOS
-  * $ sudo yum groupinstall 'Development Tools'
   
 ## Tool for trace code
 * VS code
@@ -87,8 +83,6 @@
   * $ sudo apt install global
   * http://blog.xuite.net/jesonchung/scienceview/93560500-Trace+code+tool
 * doxygen
-* $ grep -irn [string]
-* $ find . -name "*.png"
 
 ## 疑難雜症
 * [cannot-find-lxxx, library沒裝](http://i-pogo.blogspot.com/2010/01/usrbinld-cannot-find-lxxx.html)
@@ -129,3 +123,5 @@
 ## Commands
 * hibernate
   * $ systemctl hibernate
+* $ grep -irn [string]
+* $ find . -name "*.png"
