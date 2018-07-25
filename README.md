@@ -52,7 +52,7 @@
   
 ## 軟體安裝位置
 * /usr: package manager裝的地方
-* /usr/local: 手動安裝, 不影響package manager
+* /usr/local: 手動安裝, 不影響package manager, 不要時直接刪掉整個folder+移除PATH即可
   * 裝時記得 --prefix=/usr/local/[appname+version]
 * /opt: optional, 不需要時可刪掉
 
