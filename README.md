@@ -38,6 +38,8 @@
     * $ sudo apt-get update
     * $ sudo apt-get install grub-customizer
 * build-essentials
+* Development Tools @ CentOS
+  * $ sudo yum groupinstall -y 'Development Tools'
   
 ## Google Chrome
 * CentOS 7/RHEL 7
