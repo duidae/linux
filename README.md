@@ -8,7 +8,7 @@
 * /home whatever you need
 * 新手切/, swap就好
 
-## Installing Ubuntu, CentOS, RHEL with USB
+## Installing Ubuntu, CentOS, RHEL, Freebsd with USB
 * find usb device
   * $ lsblk
 * format usb to FAT32
@@ -17,6 +17,7 @@
   * $ dd if=/home/testuser/Downloads/rhel-server-7.0x86_64-boot.iso of=/dev/sdb status=progress
   * $ ~watch -n 5 killall -USR1 dd //check dd progress~
 * usb不能用太爛的...雜牌的dd copy不進去/copy進去裝不起來...創見的就都ok裝的起來...what the hell??
+* Freebsd usb install要抓memstick的img, ex: FreeBSD-11.2-RELEASE-amd64-memstick.img, 抓iso用dd寫進usb不能用
 
 ## CentOS repo & yum
 * epel repo
@@ -29,6 +30,11 @@
   * $ sudo yum info gcc // get info of app
 * 裝rpm
   * $ sudo yum install code-1.25.0-1530796575.el7.x86_64.rpm
+  
+## Freebsd
+* GUI 桌面環境
+  * $ pkg install -y xorg // 要先裝 xorg(X server), 再照下面的 5.7 裝跟設定gnome or KDE
+  * https://www.freebsd.org/doc/zh_TW/books/handbook/x11-wm.html
 
 ## 軟體
 * necessary: git, office, 小畫家, grub customizer
