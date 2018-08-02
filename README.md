@@ -35,8 +35,12 @@
   
 ## Freebsd
 * GUI 桌面環境
-  * $ pkg install -y xorg // 要先裝 xorg(X server), 再照下面的 5.7 裝跟設定gnome or KDE
-  * https://www.freebsd.org/doc/zh_TW/books/handbook/x11-wm.html
+  * 有gnome, KDE, xfce4可選, gnome/KDE都頗肥的
+  * 裝xfce4
+    * https://www.linuxhelp.com/how-to-install-xfce-desktop-in-freebsd/
+  * gnome/KDE
+    * $ pkg install -y xorg // 要先裝 xorg(X server), 再照下面的 5.7 裝跟設定gnome or KDE
+    * https://www.freebsd.org/doc/zh_TW/books/handbook/x11-wm.html
 
 ## 軟體
 * necessary: git, office, 小畫家, grub customizer
