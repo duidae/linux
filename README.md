@@ -2,11 +2,11 @@
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
-* / 10G
+* / 50G
 * /boot 500MB
 * swap 兩倍記憶體大小
 * /home whatever you need
-* 新手切/, swap就好
+* 新手or簡單安裝, 切 / & swap 就好
 
 ## Installing Ubuntu, CentOS, RHEL, Freebsd with USB
 * find usb device
