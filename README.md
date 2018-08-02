@@ -1,4 +1,5 @@
 # Notes for Linux
+[5分鐘了解 Linux 和 BSD 異同](https://www.linuxpilot.com/linux-bsd)
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
