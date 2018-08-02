@@ -1,5 +1,6 @@
 # Notes for Linux
 [5分鐘了解 Linux 和 BSD 異同](https://www.linuxpilot.com/linux-bsd)
+* 用戶授權是兩者的主要差異，雖然它不會對大多數人產生影響。Linux 使用 GNU 通用公共用戶授權即 GPL。如果你修改了 Linux 核心，並將其分發，就必須放出修改的原程式碼。BSD 使用 BSD 用戶授權，如果修改了 BSD 核心或並且發佈它，也不需要必須公開程式碼。你可以自由地對你的 BSD 程式碼做任何你想做的事，你沒有義務發佈修改的程式碼，當然你想發佈也行。兩者都是開放源碼的，但是以不同的方式。人們有時會陷入關於哪種用戶授權是「更自由」的辯論。GPL 可以幫助用戶以確保他們可以擁有 GPL 軟體的程式碼，並限制開發人員迫使他們開放程式碼。BSD 用戶授權不能確保用戶可以擁有程式碼，只是給開發人員選擇是否公開程式碼的權利，即使他們想要把它變成一個閉源項目。
 
 ## Install Linux
 * [RHEL suggestion](https://access.redhat.com/documentation/zh-tw/red_hat_enterprise_linux/7/html/installation_guide/sect-disk-partitioning-setup-x86#sect-recommended-partitioning-scheme-x86)
