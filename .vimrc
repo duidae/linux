@@ -16,7 +16,7 @@ endif
 syntax on		" syntax on/off/enable
 
 " ================= Vim Settings (:set show current settings) =================
-set nu
+set nu				" number: show line number
 set mouse=v
 set wildmenu
 set backupdir=~/vim-tmp		" op=,.,/var/tmp/vi.recover,/tmp " bdir: backup directory
@@ -38,6 +38,8 @@ set fileformat=unix		" fileformat: EOL(end of line: unix=\n dos=\r\n) format whe
 set fileformats=unix		" fileformats: input file format is unix file
 set viminfo='20,\"50		" read/write a .viminfo file, don't store less than 50 lines of registers 20 commands
 set showcmd			" display incomplete commands
+set shiftwidth=4		" width of shift a line when use >>
+set ts=4			" tabstop:
 
 " other options {{{
 "
@@ -49,9 +51,6 @@ set showcmd			" display incomplete commands
 " set textwidth=78		" insert EOL when char more than textwidth
 " set wrapmargin=1		" the same as textwidth, but count from rigth
 " set wrap 			" warp but not insert EOL
-set shiftwidth=4		" width of shift a line when use >>
-set ts=4			" tabstop:
-" set nu			" number: show line number
 " set list			" EOL=>$ TAB=>^T
 " set laststatus=2		" Display a status-bar.
 " set cmdheight=2		" number of line of status bar
