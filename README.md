@@ -114,6 +114,7 @@
   scl enable devtoolset-6 bash
   sudo yum list devtoolset-6\*
   ```
+* $ locate libuv.so
 
 ## ADSL(pppoe) on Linux
 * CentOS 7 / RHEL 7
