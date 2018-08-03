@@ -52,13 +52,12 @@ alias cls='clear'
 LS_COLORS='di=01;33:ex=01;31:*.exe=01;31:*.o=01;31:*.tar=00;35:*.tgz=00;35:*.zip=00;35:*.gz=00;35:*.bz2=00;35:*.c=01;36:*.h=01;36:*.cpp=01;36:*.java=01;32:'
 
 #####show chinese file name
-stty cs8 -istrip
-stty pass8
-
+#stty cs8 -istrip
+#stty pass8
 # Chinese character
-export LANG="zh_TW.UTF8"
-export LC_ALL="zh_TW.UTF8"
-export EDITOR=vim
+#export LANG="zh_TW.UTF8"
+#export LC_ALL="zh_TW.UTF8"
+#export EDITOR=vim
 #export XMODIFIERS="@im=xcin"
 
 #export PATH=":"
