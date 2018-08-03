@@ -22,8 +22,6 @@ set wildmenu
 set backupdir=~/vim-tmp		" op=,.,/var/tmp/vi.recover,/tmp " bdir: backup directory
 set directory=~/vim-tmp		" op=,.,/var/tmp/vi.recover,/tmp " dir to save swp files
 set noundofile
-set nobackup
-set noswapfile
 set backup			" backup: keep a backup file
 set ruler			" show the cursor position all the time
 set showmode			" show mode. show filename size when open file
@@ -40,9 +38,12 @@ set viminfo='20,\"50		" read/write a .viminfo file, don't store less than 50 lin
 set showcmd			" display incomplete commands
 set shiftwidth=4		" width of shift a line when use >>
 set ts=4			" tabstop:
+set cin				" cindent: indent when write c/cpp language
 
 " other options {{{
 "
+" set nobackup
+" set noswapfile
 " set compatible		" 設為和原始 vi 相容的狀態,vim 的擴充功能會被抑制,default off
 " set wb			" writebackup: back up after write
 " set swapfile			" have swap space or total load into memory
@@ -55,7 +56,6 @@ set ts=4			" tabstop:
 " set laststatus=2		" Display a status-bar.
 " set cmdheight=2		" number of line of status bar
 " set statusline=		" set format of status bar (:h stl)
-set cin			" cindent: indent when write c/cpp language
 " set ignorecase		" ignore case when search
 " set background=light		" dark/light, settings on /usr/share/vim/vim63/syntax/synload.vim
 " }}}
