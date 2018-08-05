@@ -44,7 +44,7 @@
 
 ## 軟體
 * necessary: git, office, 小畫家, grub customizer
-  * $ sudo yum install -y git, libreoffice, kolourpaint, grub-customizer
+  * $ sudo yum install -y vim, git, libreoffice, kolourpaint, grub-customizer
  * grub-customizer @ Ubuntu
     * $ sudo add-apt-repository ppa:danielrichter2007/grub-customizer
     * $ sudo apt-get update
