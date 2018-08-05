@@ -14,9 +14,9 @@
 * find usb device
   * $ lsblk
 * format usb to FAT32
-  * $ mkdosfs -F 32 -I /dev/sdb
+  * $ sudo mkdosfs -F 32 -I /dev/sdb
 * write ISO to usb
-  * $ dd if=/home/testuser/Downloads/rhel-server-7.0x86_64-boot.iso of=/dev/sdb status=progress
+  * $ sudo dd if=/home/duidae/source/rhel-server-7.0x86_64-boot.iso of=/dev/sdb status=progress
   * $ ~watch -n 5 killall -USR1 dd //check dd progress~
 * usb不能用太爛的...雜牌的dd copy不進去/copy進去裝不起來...創見的就都ok裝的起來...what the hell??
 * Freebsd usb install要抓memstick的img, ex: FreeBSD-11.2-RELEASE-amd64-memstick.img, 抓iso用dd寫進usb不能用
