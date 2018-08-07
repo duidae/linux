@@ -60,4 +60,5 @@ LS_COLORS='di=01;33:ex=01;31:*.exe=01;31:*.o=01;31:*.tar=00;35:*.tgz=00;35:*.zip
 #export EDITOR=vim
 #export XMODIFIERS="@im=xcin"
 
-#export PATH=":"
+#export PATH=$PATH:
+#source /opt/rh/devtoolset-7/enable
