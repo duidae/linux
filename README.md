@@ -105,11 +105,6 @@
   * $ yum whatprovides libstdc++.so.6
 * 'GLIBCXX_3.4.20' not found
   * $ strings  /usr/lib64/libstdc++.so.6 | grep GLIBCXX
-* upgrade gcc tool chain in CentOS
-  * devtoolset-7
-    * https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/
-  * scl enable devtoolset-6 bash只是临时覆盖系统原有的GCC引用，如果想永久覆盖，可在root/.bashrc文件中添加source /opt/rh/devtoolset-6/enable
-  * http://blog.fungo.me/2016/03/centos-development-env/
 * $ locate libuv.so
 
 ## ADSL(pppoe) on Linux
