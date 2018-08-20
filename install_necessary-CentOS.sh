@@ -10,8 +10,8 @@ echo "Install epel, scl repository..."
 sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sudo yum -y install centos-release-scl
 
-echo "Install git make cmake unzip wget curl vim..."
-sudo yum -y install unzip wget curl vim
+echo "Install necessary tools..."
+sudo yum -y install unzip wget curl vim cloc
 
 echo "Install libreoffice kolourpaint grub-customizer..."
 sudo yum -y install libreoffice kolourpaint grub-customizer
