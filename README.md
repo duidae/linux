@@ -54,6 +54,8 @@
   * $ sudo yum groupinstall -y 'Development Tools'
 * VS code setting
   * put settings.json in ~/.config/Code/User/
+* screen
+  * https://unix.stackexchange.com/questions/7453/how-to-split-the-terminal-into-more-than-one-view
   
 ## Google Chrome
 * CentOS 7/RHEL 7
