@@ -11,7 +11,7 @@ sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.
 sudo yum -y install centos-release-scl
 
 echo "Install necessary tools..."
-sudo yum -y install unzip wget curl vim cloc
+sudo yum -y install unzip wget curl vim cloc 
 
 echo "Install libreoffice kolourpaint grub-customizer..."
 sudo yum -y install libreoffice kolourpaint grub-customizer
