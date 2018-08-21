@@ -52,6 +52,8 @@
 * build-essentials
 * Development Tools @ CentOS
   * $ sudo yum groupinstall -y 'Development Tools'
+* VS code setting
+  * put settings.json in ~/.config/Code/User/
   
 ## Google Chrome
 * CentOS 7/RHEL 7
