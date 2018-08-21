@@ -89,6 +89,8 @@
 * 權限
   * $ sudo ls -l // 看owner
   * $ sudo chown -R duidae [dir/file] // 改目錄或檔案的owner
+* 用terminal打開目前資料夾
+  * $ nautilus .
 
 ## Environment
 * $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
