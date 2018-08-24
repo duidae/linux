@@ -93,6 +93,14 @@
   * $ sudo chown -R duidae [dir/file] // 改目錄或檔案的owner
 * 用terminal打開目前資料夾
   * $ nautilus .
+* Terminal終端機分頁工具
+  * 新增tab: Ctrl + Shift + t, 切換: Ctrl + Page Up/Down
+  * screen, 可以同一視窗分割, 好用
+    * $ screen
+    * https://unix.stackexchange.com/questions/7453/how-to-split-the-terminal-into-more-than-one-view
+  * Terminator
+    * $ sudo yum install -y terminator
+    * CentOs 裝了python有問題, 還要研究怎麼解
 
 ## Environment
 * $ export PATH=/usr/local/Cellar/qt/4.8.7_3/bin:$PATH 
