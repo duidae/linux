@@ -2,7 +2,6 @@
 " setting modeline of vim:
 "	vim:ts=8:fdm=marker:foldcolumn=2
 
-"set tags=/root/Surveillance/tags
 " ================= remember position of cursor ===============================
 if filereadable($VIMRUNTIME . "/vimrc_example.vim")
 	so $VIMRUNTIME/vimrc_example.vim
@@ -39,6 +38,7 @@ set showcmd			" display incomplete commands
 set shiftwidth=4		" width of shift a line when use >>
 set ts=4			" tabstop:
 set cin				" cindent: indent when write c/cpp language
+set tags=tags
 
 " other options {{{
 "
