@@ -56,6 +56,11 @@
   * put settings.json in ~/.config/Code/User/
 * screen
   * https://unix.stackexchange.com/questions/7453/how-to-split-the-terminal-into-more-than-one-view
+* checkinstall
+  * 最後make install的指令替換成checkinstall就可以了。而且不需sudo，產生deb安裝包後，安裝時用sudo就可以了。例如：
+    * ./configure 
+    * make 
+    * checkinstall -D --install=no
   
 ## Google Chrome
 * CentOS 7/RHEL 7
